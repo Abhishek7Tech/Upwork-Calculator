@@ -1,0 +1,348 @@
+
+
+header{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+header h1{
+    
+    font-size :font(xl);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: color(heading);
+}
+
+.sections{
+    background-image: linear-gradient(to right, color(section-1),color(section-2));
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    border-radius: 0.8rem;
+    box-shadow: 3px 5px 10px 2px whitesmoke ;
+}
+
+.section{
+    margin-inline: 15%;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+
+.heading{
+    // margin-right: 3.5rem;
+    font-family:  monospace;
+    font-size: font(xl);
+    font-weight: 600;
+    color: color(primary);
+}
+
+.input_bids{
+    margin-inline-end: 10%;
+}
+
+.input{
+    margin-top: 5rem;
+    height: 3rem;
+    font-size: font(md);
+    border-radius: 0.5rem;
+    border-style: none;
+    text-align: center;
+    border-color: whitesmoke;
+    outline: none;
+    border-bottom: 3px solid rgb(121, 170, 47);
+}
+
+.result{
+    margin-top: 4.5rem;
+    // font-size: font(lg);
+    width: fit-content;
+    color: rgb(251, 253, 251);
+}
+
+.display{
+    font-size: 2rem;
+    // flex-wrap: wrap;
+}
+
+.heading-bid{
+    font-size: font(xl) + 0.5rem;
+}
+.btn{
+    background-color: color(buttons);
+    margin-top: 3rem;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    // border-style: none;
+     border-color: color(btn-color);
+    border-radius: 10px,10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: color(btn-color);
+    transition: 1s,ease-out;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.reload{
+    margin-top:3.9rem;
+}
+
+.btn h4{
+    padding-bottom: 1px;
+    color: color(secondary);
+}
+
+.footer{
+    text-align: center;
+    margin-top: 2rem;
+    color: color(primary); 
+}
+
+.list-item{
+    margin-top: 10px;
+    list-style: none;
+    list-style-type: none;
+ 
+}
+
+.list-item a{
+    text-decoration: none;
+}
+
+.list-item a:hover{
+    color: color(primary);
+}
+
+@media screen and(min-width:320px) {
+
+    
+header h1{
+    
+    font-size :font(xl) - 0.5rem;
+}
+
+
+.sections{
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+
+}
+
+.section{
+    margin-inline: 5%;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
+
+.heading{
+    // margin-right: 3.5rem;
+    font-size: font(xl) - 0.8rem;
+      
+}
+
+.input_bids{
+    margin-inline-end: 5%;
+}
+
+
+.input{
+    margin-top: 1rem;
+    height: 2rem;
+    font-size: font(md) - 0.5rem;
+}
+
+
+.result{
+    margin-top: 1rem;
+    // font-size: font(lg);
+    width: 15rem;
+    position: relative;
+    padding-left: 5%;
+}
+.display{
+    font-size: 1.5rem;
+     
+}
+
+.btn{
+    background-color: color(buttons);
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2.5rem;
+}
+
+}
+
+
+@media screen and(min-width:500px) {
+
+    .result{
+        padding-left: 15%;
+    }
+
+}
+
+
+@media screen and(min-width:560px) {
+
+    .result{
+        padding-left: 18%;
+    }
+}
+
+@media screen and(min-width:600px) {
+
+    .result{
+        padding-left: 20%;
+    }
+}
+
+@media screen and(min-width:650px) {
+
+    .result{
+        padding-left: 22%;
+    }
+}
+
+@media screen and(min-width:670px) {
+
+    .result{
+        padding-left: 24%;
+    }
+}
+@media screen and(min-width:725px) {
+
+    .result{
+        padding-left: 26%;
+    }
+}
+
+@media screen and(min-width:769px) {
+   
+   
+   
+    .sections{
+        flex-direction: row;
+        height: 80%;
+    }
+
+    .section{
+        margin-inline: 5%;
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+    
+.input{
+    margin-top: 2.5rem;
+    height: 2rem;
+    font-size: font(md) - 0.3rem;
+}
+
+.result{
+    margin-top: 2.6rem;
+    // font-size: font(lg);
+    width: 15rem;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;  
+}
+
+.display{
+    font-size: 1.5rem;
+     
+}
+
+.btn{
+    margin-top: 2rem;
+}
+.heading-bid{
+    margin-left: 1.5rem;
+}
+
+}
+
+@media screen and(min-width:890px) {
+
+    .sections{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+header h1{
+    
+    font-size :font(xl);
+}
+    
+.section{
+    margin-inline: 5%;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+
+.heading{
+    // margin-right: 3.5rem;
+    width: 18rem;
+    font-size: font(xl);
+}
+.input{
+    margin-top: 3rem;
+    height: 3rem;
+    font-size: font(md) - 0.2rem;
+}
+
+
+.result{
+    margin-top: 3.5rem;
+    // font-size: font(lg);
+    width: 19rem;
+    // padding-right: rem;
+    // margin-right: 15rem;
+    position: relative;
+}
+.display{
+    font-size: 2rem;
+    //  margin-right: 15rem;
+}
+
+.heading-bid{
+    margin-left: 1.5rem;
+}
+
+.btn{
+    margin-top: 2.5rem;
+    height: 2.5rem;
+}
+}
+
+@media screen and (min-width:1024px) {
+    .section{
+        margin-inline: 10%;
+    }
+}
+
+@media screen and (min-width:1182px) {
+    .section{
+        margin-inline: 12%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .section{
+        margin-inline: 15%;
+    }
+}

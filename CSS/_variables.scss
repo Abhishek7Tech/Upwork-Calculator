@@ -1,0 +1,29 @@
+$colors: (
+    
+   background: #e0dedf,
+    section-1:#4fd14f,
+    bgcolor:#FF69B4,
+    bgcolor2:#FF00FF,
+    section-2:#90EE90,
+    footer-links:#708090,
+    heading:#00FF00,
+    buttons:#c7f3c7,
+    primary:rgba(255, 255, 255, 0.87),
+    btn-color:#F0FFF0,
+    secondary:#2f4f4f,
+    );
+
+    @function color($color-name){
+        @return map-get($colors , $color-name);
+    }
+
+    $fonts:(
+        xl:2.5rem,
+        lg:2rem,
+        md:1.5rem,
+        sm:1rem
+    );
+
+    @function font($size){
+        @return map-get($fonts , $size )
+    }
